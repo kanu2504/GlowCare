@@ -200,10 +200,7 @@ const AdminLogin = () => {
           </form>
           
           <div style={{ textAlign: 'center', marginTop: '2rem', fontSize: '0.85rem', color: 'var(--muted-text)' }}>
-            <span style={{ fontWeight: '500' }}>Tip: Use the default seed account:</span>
-            <div style={{ fontFamily: 'monospace', margin: '0.5rem 0', padding: '0.4rem', backgroundColor: 'var(--surface-background)', borderRadius: '8px', border: '1px solid var(--border-color)' }}>
-              admin@glowcare.com / Admin@123
-            </div>
+            <span style={{ fontWeight: '500', letterSpacing: '0.5px', textTransform: 'uppercase' }}>Authorized admin access only.</span>
           </div>
         </div>
       </div>
